@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  min-height: 200vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+body {
+  background: #fff;
+  margin-top: 50px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#foot {
+  background-color: #95CC67;
+}
+
+.input-field input[type=date]:focus+label,
+.input-field input[type=text]:focus+label {
+  color: #e91e63;
+}
+
+.input-field input[type=date]:focus,
+.input-field input[type=text]:focus {
+  border-bottom: 2px solid #e91e63;
+  box-shadow: none;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+#choices {
+  margin-top: 10px;
+}
